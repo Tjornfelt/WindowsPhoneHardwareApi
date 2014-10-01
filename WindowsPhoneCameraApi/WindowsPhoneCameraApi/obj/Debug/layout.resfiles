@@ -6,6 +6,8 @@ Assets\StoreLogo.scale-240.png
 Assets\WideLogo.scale-240.png
 App.xbf
 CameraPage.xbf
+GpsPage.xbf
+GyroPage.xbf
 MainPage.xbf
 WindowsPhoneCameraApi.xr.xml
 StoreManifest.xml

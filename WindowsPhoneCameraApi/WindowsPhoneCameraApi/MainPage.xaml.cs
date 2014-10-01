@@ -37,5 +37,15 @@ namespace WindowsPhoneCameraApi
         {
             Frame.Navigate(typeof(CameraPage));
         }
+
+        private void btn_Gps_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(GpsPage));
+        }
+
+        private void btn_Gyro_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(GyroPage));
+        }
     }
 }

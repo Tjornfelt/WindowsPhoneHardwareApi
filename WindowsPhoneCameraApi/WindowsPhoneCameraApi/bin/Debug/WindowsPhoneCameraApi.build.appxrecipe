@@ -7,58 +7,64 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>f3b4f2bf-9578-4deb-aa47-506cab1995e5</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\WindowsPhoneCameraApi.exe">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\WindowsPhoneCameraApi.exe">
       <PackagePath>WindowsPhoneCameraApi.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\StoreManifest.xml">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\CameraPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\CameraPage.xbf">
       <PackagePath>CameraPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\GpsPage.xbf">
+      <PackagePath>GpsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\GyroPage.xbf">
+      <PackagePath>GyroPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\WindowsPhoneCameraApi.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\WindowsPhoneCameraApi.xr.xml">
       <PackagePath>WindowsPhoneCameraApi.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mads\documents\visual studio 2013\Projects\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Mads\Documents\GitHub\WindowsPhoneHardwareApi\WindowsPhoneCameraApi\WindowsPhoneCameraApi\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

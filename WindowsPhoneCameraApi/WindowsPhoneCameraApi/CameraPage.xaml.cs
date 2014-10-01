@@ -8,6 +8,8 @@ using Windows.Devices.Enumeration;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Media.Capture;
+using Windows.Media.MediaProperties;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -94,6 +96,32 @@ namespace WindowsPhoneCameraApi
         private async void StartPreview()
         {
             await takePhotoManager.StartPreviewAsync();
+        }
+
+        private async void TakePhoto()
+        {
+            ImageEncodingProperties imgFormat = ImageEncodingProperties.CreateJpeg();
+
+            // a file to save a photo
+            //Local data
+            //StorageFile file = await ApplicationData.Current.LocalFolder.CreateFileAsync("Photo.jpg", CreationCollisionOption.ReplaceExisting);
+
+            //Use the camera folder
+            StorageFile file = await Windows.Storage.KnownFolders.CameraRoll.CreateFileAsync("Photo.jpg", CreationCollisionOption.ReplaceExisting);
+
+            await takePhotoManager.CapturePhotoToStorageFileAsync(imgFormat, file);
+
+            
+        }
+
+        private void btn_Back_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
+
+        private void btn_TakePhoto_Click(object sender, RoutedEventArgs e)
+        {
+            TakePhoto();
         }
     }
 }

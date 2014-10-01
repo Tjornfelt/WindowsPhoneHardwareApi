@@ -34,8 +34,8 @@
             </Grid.ColumnDefinitions>
 
             
-            <Button Content="btn_TakePhoto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" />
-            <Button x:Name="btn_Back" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2" />
+            <Button x:ConnectionId='1' x:Name="btn_TakePhoto" Content="Take photo" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1"                             />
+            <Button x:ConnectionId='2' x:Name="btn_Back" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2"                        />
             
 
         </Grid>

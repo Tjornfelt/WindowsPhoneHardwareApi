@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid x:Name="LayoutRoot">
-
+        
         <Grid.ChildrenTransitions>
             <TransitionCollection>
                 <EntranceThemeTransition/>
@@ -40,8 +40,9 @@
 
             <Button x:ConnectionId='1' x:Name="btn_Camera" Grid.Column="0" Grid.Row="0" Content="Camera" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5,5,5,5"                          />
 
-            <Button x:Name="btn_Gps" Grid.Column="1" Grid.Row="0" Content="GPS" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5,5,5,5" />
-            
+            <Button x:ConnectionId='2' x:Name="btn_Gps" Grid.Column="1" Grid.Row="0" Content="GPS" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5,5,5,5"                       />
+
+            <Button x:ConnectionId='3' x:Name="btn_Gyro" Grid.Column="0" Grid.Row="1" Content="GYRO Sensor" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5,5,5,5"                        />
 
         </Grid>
     </Grid>
